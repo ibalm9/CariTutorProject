@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundstyle"
+    tools:context="com.example.finalproject.Activity.MainActivity">
+
+   <android.support.v4.widget.DrawerLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/drawer_layout"
+       android:fitsSystemWindows="true"
+       tools:context="com.example.finalproject.Activity.MainActivity"
+       tools:openDrawer="start">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+         <android.support.v7.widget.Toolbar
+             android:layout_width="match_parent"
+             android:layout_height="48dp"
+             android:background="#ffffff"
+             android:id="@+id/toolbar"
+             android:elevation="10dp"
+             android:theme="@style/ThemeOverlay.AppCompat.Light"
+             app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+             />
+
+         <ScrollView
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:scrollbars="none"
+
+             >
+         <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+
+
+
+
+               <RelativeLayout
+                   xmlns:android="http://schemas.android.com/apk/res/android"
+                   xmlns:tools="http://schemas.android.com/tools"
+                   android:id="@+id/activity_main2"
+                   android:layout_width="match_parent" android:layout_height="wrap_content"
+                   tools:context="com.example.finalproject.Activity.MainActivity">
+
+                  <ss.com.bannerslider.Slider
+                      android:id="@+id/banner_slider1"
+                      android:layout_width="match_parent"
+                      app:slider_interval="3000"
+                      android:layout_height="wrap_content"
+                      />
+                  <android.support.v7.widget.RecyclerView
+                      android:id="@+id/horizontal_recycler_view2"
+                      android:layout_width="0dp"
+
+                      android:layout_alignParentTop="true"
+                      android:layout_height="wrap_content">
+
+                  </android.support.v7.widget.RecyclerView>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Ayo jelajahi kotamu"
+                      android:textSize="16sp"
+                      android:textStyle="bold"
+                      android:layout_marginTop="12dp"
+                      android:layout_below="@+id/banner_slider1"
+                      android:layout_marginLeft="40dp"></TextView>
+
+                  <Button
+                      android:id="@+id/get_button"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_marginEnd="8dp"
+                      android:layout_below="@+id/banner_slider1"
+                      android:layout_marginRight="8dp"
+                      android:layout_marginTop="8dp"
+                      android:onClick="getButtonClicked"
+                      android:text="@string/get_weather"
+                      android:textAllCaps="false"
+                      />
+
+                  <TextView
+                      android:id="@+id/temperature"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="4dp"
+                      android:layout_marginStart="4dp"
+                      android:paddingRight="40dp"
+                      android:layout_marginRight="40dp"
+                      android:textStyle="bold"
+                      android:layout_below="@+id/banner_slider1"
+                     android:layout_alignParentRight="true"
+                      android:layout_marginTop="12dp"
+                      android:text="Suhu"
+                     />
+
+                  <FrameLayout
+                      android:layout_width="match_parent"
+                      android:layout_marginTop="46dp"
+                      android:layout_below="@id/banner_slider1"
+                      android:layout_height="wrap_content" >
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="16dp"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+
+
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_view"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+
+                           <ImageView
+                               android:id="@+id/button_penginapan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_penginapan" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Penginapan"
+                               android:textSize="10dp"
+                               android:textColor="#707070"
+                               android:layout_marginTop="-4dp"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_view"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_kuliner"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_kuliner" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:text="Kuliner"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_viewa"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_toko"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_pasar" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:textSize="10dp"
+                               android:textColor="#707070"
+                               android:text="Pasar"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_viewh"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+
+                               android:id="@+id/button_kesehatan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_kesehatan" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:text="Kesehatan"
+                               android:textSize="10dp"
+                               android:textColor="#707070"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="114dp"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_view2"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+
+                            >
+
+                           <ImageView
+                               android:id="@+id/button_wisata"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_wisata" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:text="Wisata"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_view2"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_transportasi"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_transportasi" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:text="Transportasi"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_viewa2"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_keuangan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon__keuanganbaruu" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:text="Keuangan"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_viewh2"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_hiburan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_hiburan" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:textSize="10dp"
+                               android:textColor="#707070"
+                               android:text="Hiburan"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="212dp"
+                      android:id="@+id/cekbawah"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+
+
+                      >
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_view6"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+
+                            >
+
+                           <ImageView
+                               android:id="@+id/button_olahraga"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_olahraga" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:text="Olahraga"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_view6"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_pemerintahan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_pemerintahan" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:textSize="10dp"
+                               android:textColor="#707070"
+                               android:layout_marginTop="-4dp"
+                               android:text="Pemerintahan"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/file_viewa6"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_cafe"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_toko_kopi" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:textSize="10dp"
+                               android:text="Warung Kopi"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+
+                     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banking_viewh6"
+                         android:layout_width="80dp"
+                         android:layout_height="88dp"
+                         android:layout_margin="4dp"
+                         card_view:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                           <ImageView
+                               android:id="@+id/button_pendidikan"
+                               android:layout_width="48dp"
+                               android:layout_height="48dp"
+                               android:src="@drawable/ic_icon_pendidikan" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginTop="-4dp"
+                               android:text="Pendidikan"
+                               android:textColor="#707070"
+                               android:textSize="10dp"
+                               android:textStyle="bold" />
+
+
+                        </LinearLayout>
+                     </android.support.v7.widget.CardView>
+                  </LinearLayout>
+
+                     <android.support.v7.widget.RecyclerView
+                         android:id="@+id/horizontal_recycler_view"
+                         android:layout_width="wrap_content"
+                         android:background="@color/white"
+                         android:layout_height="wrap_content">
+
+                     </android.support.v7.widget.RecyclerView>
+
+                     <ProgressBar
+                         android:id="@+id/progressBar"
+                         style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_centerHorizontal="true"
+                         android:layout_centerVertical="true"/>
+
+                     <android.support.v7.widget.RecyclerView
+                         android:id="@+id/vertical_recycler_view"
+                         android:background="@color/white"
+                         android:layout_width="wrap_content"
+                         android:layout_height="100dp"
+                         android:layout_below="@id/imgw">
+
+                     </android.support.v7.widget.RecyclerView>
+
+
+                  </FrameLayout>
+                <RelativeLayout
+                     xmlns:android="http://schemas.android.com/apk/res/android"
+                     xmlns:tools="http://schemas.android.com/tools"
+                     android:id="@+id/activity_main"
+                     android:background="@color/white"
+                     android:layout_width="0dp" android:layout_height="match_parent"
+                   >
+
+
+                  <android.support.constraint.ConstraintLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#eaeaea"
+                      android:elevation="4dp"
+                      android:id="@+id/imgw"
+                      tools:context=".Activity.MainActivity"
+                      >
+
+
+
+                     <Button
+                         android:id="@+id/forecast_button"
+                         android:layout_width="0dp"
+                         android:layout_height="0dp"
+                         android:layout_marginBottom="8dp"
+                         android:layout_marginLeft="24dp"
+                         android:layout_marginStart="24dp"
+                         android:layout_marginTop="8dp"
+                         android:text="@string/weekly_forecast"
+                         android:textAllCaps="false"
+                         android:onClick="forecastButtonClicked"
+                         app:layout_constraintBottom_toBottomOf="parent"
+                         app:layout_constraintStart_toStartOf="parent"
+                         app:layout_constraintTop_toTopOf="parent"
+                         app:layout_constraintVertical_bias="0.583" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Cuaca Wajo"
+                         android:textSize="18sp"
+                         android:textStyle="bold"></TextView>
+
+                     <EditText
+                         android:id="@+id/city_field"
+                         android:layout_width="0dp"
+                         android:layout_height="0dp"
+                         android:layout_marginEnd="8dp"
+                         android:layout_marginLeft="8dp"
+                         android:layout_marginRight="8dp"
+                         android:layout_marginStart="8dp"
+                         android:layout_marginTop="8dp"
+                         android:ems="10"
+                         android:hint="@string/city_field"
+                         android:inputType="textNoSuggestions"
+                         app:layout_constraintEnd_toStartOf="@+id/get_button"
+                         app:layout_constraintStart_toStartOf="parent"
+                         app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                     <TextView
+                         android:id="@+id/pressure"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="8dp"
+                         android:text="Tekanan Udara"
+                         app:layout_constraintStart_toStartOf="@+id/temperature"
+                         app:layout_constraintTop_toBottomOf="@+id/wind_speed" />
+
+                     <TextView
+                         android:id="@+id/humidity"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="8dp"
+                         android:text="Kelembaban Udara"
+                         app:layout_constraintStart_toStartOf="@+id/pressure"
+                         app:layout_constraintTop_toBottomOf="@+id/pressure" />
+
+                     <TextView
+                         android:id="@+id/weather_condition"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="8dp"
+                         android:text="Keadaan Cuaca"
+                         app:layout_constraintStart_toStartOf="@+id/humidity"
+                         app:layout_constraintTop_toBottomOf="@+id/humidity" />
+
+                     <TextView
+                         android:id="@+id/wind_speed"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="8dp"
+                         android:text="Kecepatan Angin"
+                         app:layout_constraintStart_toStartOf="@+id/temperature"
+                         app:layout_constraintTop_toBottomOf="@+id/temperature" />
+
+
+                     <ImageView
+                         android:id="@+id/condition_picture"
+                         android:layout_width="100dp"
+                         android:layout_height="100dp"
+                         android:layout_marginEnd="8dp"
+                         android:layout_marginLeft="8dp"
+                         android:layout_marginRight="8dp"
+                         android:layout_marginStart="8dp"
+                         android:layout_marginTop="84dp"
+                         android:contentDescription="@string/condition_picture"
+                         android:visibility="invisible"
+                         app:layout_constraintEnd_toEndOf="parent"
+                         app:layout_constraintHorizontal_bias="0.853"
+                         app:layout_constraintStart_toEndOf="@+id/pressure"
+                         app:layout_constraintTop_toBottomOf="@+id/get_button" />
+
+                     <android.support.constraint.Guideline
+                         android:id="@+id/guideline"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                         app:layout_constraintGuide_begin="20dp" />
+
+
+
+
+                  </android.support.constraint.ConstraintLayout>
+
+
+               </RelativeLayout>
+
+
+               </RelativeLayout>
+
+         </TableLayout>
+         </ScrollView>
+
+
+      </LinearLayout>
+
+
+   </android.support.v4.widget.DrawerLayout>
+   <FrameLayout
+       android:id="@+id/fragment_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@id/button_navigation"
+       >
+
+
+   </FrameLayout>
+
+   <android.support.design.widget.BottomNavigationView
+       android:id="@+id/button_navigation"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       app:menu="@menu/button_navigation"
+       android:background="?android:attr/windowBackground"
+       >
+
+   </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

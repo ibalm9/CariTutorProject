@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuHome"
+        android:icon="@drawable/ic_icon__home2"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/mnuNearMe"
+        android:icon="@drawable/ic_icon__berita2"
+        android:title="Berita" />
+    <item
+        android:id="@+id/mnucategory"
+        android:icon="@drawable/ic_icon__event2"
+        android:title="Acara"/>
+    <item
+        android:id="@+id/mnuFavorite"
+        android:icon="@drawable/ic_icon__pengaduan2"
+        android:title="Pengaduan" />
+    <item
+        android:id="@+id/mnuPengaduan"
+        android:icon="@drawable/ic_icon__akun2"
+        android:title="Akun" />
+</menu>

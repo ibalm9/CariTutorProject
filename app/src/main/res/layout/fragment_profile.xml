@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    tools:context="com.example.finalproject.LoginRegister.ProfileFragment"
+
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="238dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/adaa"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_splash2"></ImageView>
+
+
+                <ImageButton
+                    android:id="@+id/user_profile_photo"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:layout_below="@+id/adaa"
+                    android:layout_marginTop="-50dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/user_profile_image_background"
+                    android:src="@drawable/ic_boy" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_profile_photo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="4dp"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_email"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffffff"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_chg_password"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="20dp"
+                            android:layout_marginTop="60dp"
+                            android:background="@drawable/round_button"
+                            android:elevation="10dp"
+
+                            android:src="@drawable/ic_padlock"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Ubah Sandi"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_logout2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="20dp"
+                            android:layout_marginTop="60dp"
+                            android:background="@drawable/round_button"
+                            android:elevation="10dp"
+                            android:padding="20dp"
+                            android:src="@drawable/ic_settings_2"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Edit Profil"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_logout"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="20dp"
+                            android:layout_marginTop="60dp"
+
+                            android:background="@drawable/round_button"
+                            android:elevation="10dp"
+                            android:padding="20dp"
+                            android:src="@drawable/ic_logout"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Keluar"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/line1"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fab"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="20dp"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:src="@drawable/ic_add_event"
+                            app:borderWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Tambah Acaramu"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/fab2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/round_button"
+
+                            android:elevation="10dp"
+                            android:src="@drawable/ic_contract" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Pengaduan"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btn_store"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="20dp"
+                            android:background="@drawable/round_button"
+                            android:elevation="10dp"
+                            android:padding="20dp"
+                            android:src="@drawable/ic_star_border_black_24dp"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Suka aplikasi"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.github.fabtransitionactivity.SheetLayout
+                    android:id="@+id/bottom_sheet2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:elevation="20dp"
+                    app:ft_color="@color/colorPrimary"
+                    app:ft_container_gravity="center" />
+
+            </RelativeLayout>
+
+    </TableLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

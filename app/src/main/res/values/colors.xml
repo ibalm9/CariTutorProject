@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2151A1</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#3788DD</color>
+    <color name="colorBlack">#707070</color>
+    <color name="white">#FFFFFF</color>
+    <color name="popular_image_background">#B8E986</color>
+    <color name="background_color">#f5f5f5</color>
+    <color name="horizontal_image_background">#f5f5f5</color>
+    <color name="name_text_color">#333333</color>
+    <color name="colorA">#000000</color>
+    <color name="window_background">#FFF5F5F5</color>
+
+    <!-- Common colors -->
+    <color name="list_choice_normal_bg_light">#ffff</color>
+    <color name="list_choice_pressed_bg_light">#fccc</color>
+
+    <color name="one_round">#9ccc65</color>
+    <color name="two_round">#a1887f</color>
+    <color name="three_round">#90a4ae</color>
+    <color name="four_round">#3788DD</color>
+</resources>
