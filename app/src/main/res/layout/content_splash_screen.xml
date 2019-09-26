@@ -24,7 +24,7 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/ic_logo_scap"
+        android:src="@drawable/hand"
         android:layout_marginTop="60dp"
         android:id="@+id/logo"
         android:layout_centerHorizontal="true"
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorPrimary"
-        android:text="SCAP"
+        android:text="CariTutor"
         android:id="@+id/scap"
         android:textStyle="bold"
         android:textSize="60sp"
@@ -50,7 +50,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ayo jelajahi kotamu"
+        android:text="Mari Belajar Bersama"
         android:layout_below="@id/scap"
         android:id="@+id/exp"
         android:layout_marginTop="-8dp"
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal"
-        android:text="PT. 4nesia Digital Solution"
+        android:text="Kelompok IF-41-12 IMPAL"
         android:textSize="18dp"
         android:layout_below="@id/exp"
         android:layout_centerHorizontal="true"></TextView>

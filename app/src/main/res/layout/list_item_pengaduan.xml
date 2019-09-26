@@ -16,12 +16,12 @@
         android:id="@+id/imageDownloadedPengaduan"
         android:layout_marginTop="6dp"
         android:scaleType="centerCrop"
-        app:riv_corner_radius="6dip"
+        app:riv_corner_radius="100dip"
         app:riv_border_width="0dip"
         app:riv_border_color="#333333"
-        android:layout_width="match_parent"
+        android:layout_width="120dp"
         android:layout_gravity="center"
-        android:layout_height="180dp"
+        android:layout_height="120dp"
         android:paddingLeft="6dp"
         >
 

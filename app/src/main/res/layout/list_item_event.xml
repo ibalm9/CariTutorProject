@@ -14,9 +14,10 @@
             app:riv_corner_radius="6dip"
             app:riv_border_width="0dip"
             app:riv_border_color="#333333"
-            android:layout_width="match_parent"
+            android:layout_width="120dp"
             android:layout_gravity="center"
-            android:layout_height="180dp"
+            android:layout_height="126dp"
+            android:layout_below="@+id/textjudul"
             android:paddingLeft="6dp"
             />
 
@@ -30,18 +31,59 @@
             android:textSize="22sp"
             android:textStyle="bold"
             android:textAllCaps="true"
-            android:layout_below="@id/imageDownloaded"></TextView>
+            ></TextView>
 
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:orientation="vertical"
+        android:layout_toRightOf="@id/imageDownloaded"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="34dp"
         android:id="@+id/kanan"
 
         >
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:drawableLeft="@drawable/ic_icon__jadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="6dp"
+            android:text="Date/Time"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+
+
+            android:textColor="@color/colorBlack"
+            android:typeface="sans"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+
+            android:id="@+id/textViewLocation"
+            android:drawableLeft="@drawable/ic_icon__lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="6dp"
+            android:lineSpacingExtra="2dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Your Event Location"
+            />
 
 
 
@@ -58,7 +100,7 @@
             android:layout_alignParentLeft="true"
             android:fontFamily="sans-serif-light"
             android:textSize="14sp"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="70dp"
             />
 
     <TextView
@@ -72,7 +114,7 @@
         android:drawablePadding="6dp"
 
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="100dp"
         android:lineSpacingExtra="2dp"
         android:fontFamily="sans-serif-light"
         android:text="Hello Codetr ..."
@@ -90,45 +132,7 @@
             android:orientation="vertical"
 
             >
-            <TextView
-                android:id="@+id/textViewDate"
-                android:drawableLeft="@drawable/ic_icon__jadwal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawablePadding="6dp"
-                android:text="Date/Time"
-                android:paddingTop="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:paddingLeft="5dp"
 
-
-                android:textColor="@color/colorBlack"
-                android:typeface="sans"
-                android:fontFamily="sans-serif-light"
-                android:textSize="14sp"
-
-                android:layout_marginTop="190dp"
-                />
-
-            <TextView
-
-                android:id="@+id/textViewLocation"
-                android:drawableLeft="@drawable/ic_icon__lokasi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorBlack"
-                android:textSize="14sp"
-                android:paddingTop="10dp"
-                android:paddingRight="10dp"
-                android:paddingBottom="10dp"
-                android:paddingLeft="5dp"                android:layout_marginTop="230dp"
-                android:drawablePadding="6dp"
-
-                android:lineSpacingExtra="2dp"
-                android:fontFamily="sans-serif-light"
-                android:text="Your Event Location"
-                />
 </RelativeLayout>
 
     <!-- Title Of Song-->

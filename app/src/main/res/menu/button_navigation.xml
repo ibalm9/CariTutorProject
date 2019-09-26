@@ -4,22 +4,22 @@
 
     <item
         android:id="@+id/mnuHome"
-        android:icon="@drawable/ic_icon__home2"
+        android:icon="@drawable/ic_home_black_24dp"
         android:title="Beranda" />
     <item
         android:id="@+id/mnuNearMe"
-        android:icon="@drawable/ic_icon__berita2"
+        android:icon="@drawable/ic_newspaper"
         android:title="Berita" />
     <item
         android:id="@+id/mnucategory"
-        android:icon="@drawable/ic_icon__event2"
-        android:title="Acara"/>
+        android:icon="@drawable/ic_open_book"
+        android:title="Belajar"/>
     <item
         android:id="@+id/mnuFavorite"
-        android:icon="@drawable/ic_icon__pengaduan2"
-        android:title="Pengaduan" />
+        android:icon="@drawable/ic_teacher_pointing_blackboard"
+        android:title="Tutor" />
     <item
         android:id="@+id/mnuPengaduan"
-        android:icon="@drawable/ic_icon__akun2"
+        android:icon="@drawable/ic_man_user"
         android:title="Akun" />
 </menu>
