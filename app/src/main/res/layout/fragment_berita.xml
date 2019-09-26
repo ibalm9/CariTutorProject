@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:id="@+id/ee"
-        android:text="       Berita"
+        android:text="       Berita CariTutor"
         android:layout_marginTop="40dp"
         android:textAlignment="textStart"
         android:textStyle="bold"

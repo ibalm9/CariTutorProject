@@ -3,10 +3,10 @@ package com.example.finalproject.network;
 public class ConfigPengaduan {
 
     //Data URL
-    public static final String DATA_URL = "http://192.168.1.11/pengaduan/codetr.php";
-    public static final String UPLOAD_URL = "http://192.168.1.11/pengaduan/upload.php";
+    public static final String DATA_URL = "http://192.168.43.111/pengaduan/codetr.php";
+    public static final String UPLOAD_URL = "http://192.168.43.111/pengaduan/upload.php";
     public static final String UPLOAD_KEY = "image";
-    public static final String DATA = "http://192.168.1.11/pengaduan/uploads/";
+    public static final String DATA = "http://192.168.43.111/pengaduan/uploads/";
 
 
     //JSON TAGS

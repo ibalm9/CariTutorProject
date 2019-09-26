@@ -24,7 +24,7 @@ public class PemerintahActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        toolbar.setTitle("Pemerintahan");
+        toolbar.setTitle("Sosial");
         toolbar.setTitleTextColor(getResources().getColor(android.R.color.black));
         toolbar.setNavigationIcon(R.drawable.ic_icon__back);
 

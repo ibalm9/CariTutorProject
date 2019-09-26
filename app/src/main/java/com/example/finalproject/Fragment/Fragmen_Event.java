@@ -69,8 +69,8 @@ public class Fragmen_Event extends Fragment implements ListView.OnItemClickListe
             if (mToolbar != null) {
                 ((AppCompatActivity)getActivity()).setSupportActionBar(mToolbar);
             }
-            mToolbar.setTitle("    Acara");
-            mToolbar.setTitleTextColor(Color.BLACK);
+            mToolbar.setTitle("    Belajar");
+            mToolbar.setTitleTextColor(Color.WHITE);
 
 
 

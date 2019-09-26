@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Scap Wajo Smart City</string>
+    <string name="app_name">CariTutor!</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_sign_in">SignInActivity</string>
     <string name="title_activity_login">Sign in</string>

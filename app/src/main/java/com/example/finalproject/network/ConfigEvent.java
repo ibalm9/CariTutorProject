@@ -5,10 +5,10 @@ package com.example.finalproject.network;
  */
 public class ConfigEvent {
     //Data URL
-    public static final String DATA_URL = "http://192.168.1.11/codetr/codetr.php";
-    public static final String UPLOAD_URL = "http://192.168.1.11/codetr/upload.php";
+    public static final String DATA_URL = "http://192.168.43.111/codetr/codetr.php";
+    public static final String UPLOAD_URL = "http://192.168.43.111/codetr/upload.php";
     public static final String UPLOAD_KEY = "poster";
-    public static final String DATA = "http://192.168.1.11/codetr/uploads/";
+    public static final String DATA = "http://192.168.43.111/codetr/uploads/";
 
 
     //JSON TAGS

@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         drawer = findViewById(R.id.drawer_layout);
-        toolbar.setTitleTextColor(Color.BLACK);
+        toolbar.setTitleTextColor(Color.WHITE);
 
 
         ImageView buttonOne = findViewById(R.id.button_kuliner);
@@ -357,7 +357,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
         ActionBar actionBar=getSupportActionBar();
-        actionBar.setTitle("    SCAP Wajo");
+        actionBar.setTitle("    CariTutor");
 
         city = findViewById(R.id.city_field);
         temperature = findViewById(R.id.temperature);

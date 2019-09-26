@@ -60,17 +60,17 @@ public class BeritaFragment extends Fragment {
 
         View view = LayoutInflater.from(getActivity()).inflate(R.layout.custom_tab, null);
         TextView tabOne =(TextView)view.findViewById(R.id.text);
-        tabOne.setText("WajoTV");
+        tabOne.setText("Pendidikan");
         tabLayout.getTabAt(0).setCustomView(tabOne);
 
         View view1 = LayoutInflater.from(getActivity()).inflate(R.layout.custom_tab, null);
         TextView tabTwo =(TextView)view1.findViewById(R.id.text);
-        tabTwo.setText("Wajo Terkini");
+        tabTwo.setText("Sosial");
         tabLayout.getTabAt(1).setCustomView(tabTwo);
 
         View view2 = LayoutInflater.from(getActivity()).inflate(R.layout.custom_tab, null);
         TextView tabThree =(TextView)view2.findViewById(R.id.text);
-        tabThree.setText("SCAP");
+        tabThree.setText("Budaya");
         tabLayout.getTabAt(2).setCustomView(tabThree);
 
 //

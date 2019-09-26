@@ -24,7 +24,7 @@
          <android.support.v7.widget.Toolbar
              android:layout_width="match_parent"
              android:layout_height="48dp"
-             android:background="#ffffff"
+             android:background="#1BAA56"
              android:id="@+id/toolbar"
              android:elevation="10dp"
              android:theme="@style/ThemeOverlay.AppCompat.Light"
@@ -71,7 +71,7 @@
                   <TextView
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="Ayo jelajahi kotamu"
+                      android:text="Mari Belajar Bersama!"
                       android:textSize="16sp"
                       android:textStyle="bold"
                       android:layout_marginTop="12dp"
@@ -109,16 +109,16 @@
                   <FrameLayout
                       android:layout_width="match_parent"
                       android:layout_marginTop="46dp"
+                      android:id="@+id/frame"
                       android:layout_below="@id/banner_slider1"
-                      android:layout_height="wrap_content" >
+                      android:layout_height="match_parent" >
 
                   <LinearLayout
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
-                      android:layout_marginTop="16dp"
+                      android:layout_marginTop="246dp"
                       android:gravity="center"
                       android:orientation="horizontal">
-
 
 
                      <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -259,7 +259,7 @@
                   <LinearLayout
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
-                      android:layout_marginTop="114dp"
+                      android:layout_marginTop="324dp"
                       android:gravity="center"
                       android:orientation="horizontal">
 
@@ -289,7 +289,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:layout_marginTop="-4dp"
-                               android:text="Wisata"
+                               android:text="Geografi"
                                android:textColor="#707070"
                                android:textSize="10dp"
                                android:textStyle="bold" />
@@ -324,7 +324,7 @@
                                android:layout_marginTop="-4dp"
                                android:textColor="#707070"
                                android:textSize="10dp"
-                               android:text="Transportasi"
+                               android:text="Otomotif"
                                android:textStyle="bold" />
 
 
@@ -357,7 +357,7 @@
                                android:layout_marginTop="-4dp"
                                android:textColor="#707070"
                                android:textSize="10dp"
-                               android:text="Keuangan"
+                               android:text="Akuntansi"
                                android:textStyle="bold" />
 
 
@@ -382,7 +382,7 @@
                                android:id="@+id/button_hiburan"
                                android:layout_width="48dp"
                                android:layout_height="48dp"
-                               android:src="@drawable/ic_icon_hiburan" />
+                               android:src="@drawable/ic_icon_kesehatan" />
 
                            <TextView
                                android:layout_width="wrap_content"
@@ -390,7 +390,7 @@
                                android:layout_marginTop="-4dp"
                                android:textSize="10dp"
                                android:textColor="#707070"
-                               android:text="Hiburan"
+                               android:text="Medis"
                                android:textStyle="bold" />
 
 
@@ -401,7 +401,7 @@
                   <LinearLayout
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
-                      android:layout_marginTop="212dp"
+                      android:layout_marginTop="232dp"
                       android:id="@+id/cekbawah"
                       android:orientation="horizontal"
                       android:gravity="center"
@@ -470,7 +470,7 @@
                                android:textSize="10dp"
                                android:textColor="#707070"
                                android:layout_marginTop="-4dp"
-                               android:text="Pemerintahan"
+                               android:text="Sosial Politik"
                                android:textStyle="bold" />
 
 
@@ -502,7 +502,7 @@
                                android:layout_height="wrap_content"
                                android:layout_marginTop="-4dp"
                                android:textSize="10dp"
-                               android:text="Warung Kopi"
+                               android:text="Kuliner"
                                android:textStyle="bold" />
 
 
@@ -533,7 +533,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:layout_marginTop="-4dp"
-                               android:text="Pendidikan"
+                               android:text="Perkuliahan"
                                android:textColor="#707070"
                                android:textSize="10dp"
                                android:textStyle="bold" />
@@ -563,8 +563,9 @@
                          android:id="@+id/vertical_recycler_view"
                          android:background="@color/white"
                          android:layout_width="wrap_content"
-                         android:layout_height="100dp"
-                         android:layout_below="@id/imgw">
+                         android:layout_marginTop="440dp"
+                         android:layout_height="wrap_content"
+                       >
 
                      </android.support.v7.widget.RecyclerView>
 
