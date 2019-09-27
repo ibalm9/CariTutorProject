@@ -6,7 +6,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    @GET("gzkrp")
+    @GET("12x561")
     Call<JsonData> apiCall();
 
 }

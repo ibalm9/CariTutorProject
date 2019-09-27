@@ -32,7 +32,7 @@
         android:layout_marginLeft="6dp"
         android:padding="2dp"
         android:layout_marginRight="6dp"
-        android:text="Cek Penyelesaian"
+        android:text="Cek Jadwal"
         android:textSize="16sp"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
