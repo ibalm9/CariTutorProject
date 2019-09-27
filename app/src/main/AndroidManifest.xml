@@ -102,7 +102,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view_event.ViewFullIEvent"
-            android:label="Acara"
+            android:label="Tutor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view_pengaduan.ViewFullPengaduan"

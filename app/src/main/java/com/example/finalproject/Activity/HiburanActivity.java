@@ -11,7 +11,7 @@ import com.example.finalproject.R;
 import com.example.finalproject.duabelasmodul_MySQL.Downloader;
 
 public class HiburanActivity extends AppCompatActivity {
-    final static String urlAddress2="http://192.168.1.11/coba2/indexhiburan.php";
+    final static String urlAddress2="http://192.168.43.111/coba2/indexhiburan.php";
 
 
     @Override

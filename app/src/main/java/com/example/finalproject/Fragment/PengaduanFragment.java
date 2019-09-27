@@ -80,8 +80,8 @@ public class PengaduanFragment extends Fragment implements ListView.OnItemClickL
         if (mToolbar != null) {
             ((AppCompatActivity)getActivity()).setSupportActionBar(mToolbar);
         }
-        mToolbar.setTitle("    Pengaduan");
-        mToolbar.setTitleTextColor(Color.GRAY);
+        mToolbar.setTitle("    Tutor");
+        mToolbar.setTitleTextColor(Color.WHITE);
 
 
 
