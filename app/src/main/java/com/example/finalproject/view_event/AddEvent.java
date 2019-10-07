@@ -53,7 +53,7 @@ public class AddEvent extends BaseActivity {
         toolbar.setTitleTextColor(Color.LTGRAY);
         toolbar.setTitleMargin(20,20,20,20);
 
-       toolbar.setTitle("Tentang Acaramu");
+       toolbar.setTitle("Tentang Matakuliahmu");
 
         imageView = (ImageView) findViewById(R.id.imageView);
 
@@ -106,7 +106,7 @@ public class AddEvent extends BaseActivity {
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Pilih Poster Acaramu"), PICK_IMAGE_REQUEST);
+        startActivityForResult(Intent.createChooser(intent, "Pilih Gambar"), PICK_IMAGE_REQUEST);
     }
 
     @Override
