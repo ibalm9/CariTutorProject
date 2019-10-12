@@ -26,7 +26,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.CafeActivity"
-            android:label="cafe racer"
+            android:label="cafe r"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
