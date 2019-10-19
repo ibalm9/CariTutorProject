@@ -26,7 +26,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.CafeActivity"
-            android:label="huh"
+            android:label="h"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
