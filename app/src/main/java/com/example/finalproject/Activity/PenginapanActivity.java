@@ -15,7 +15,7 @@ import com.example.finalproject.R;
 
 public class PenginapanActivity extends AppCompatActivity {
 
-    final static String urlAddress="http://192.168.1.11/coba2/indexpenginapan.php";
+    final static String urlAddress="http://vibrantoo.xyz/menumain/indexpenginapan.php";
 
 
     @Override

@@ -91,7 +91,7 @@ public class DataParser extends AsyncTask<Void, Void, Boolean> {
 
 
 
-                String kodeurl ="http://192.168.43.111/";
+                String kodeurl ="http://vibrantoo.xyz/";
 
                 spacecraft=new Spacecraft();
 

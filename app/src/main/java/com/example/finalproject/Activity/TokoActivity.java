@@ -12,7 +12,7 @@ import com.example.finalproject.duabelasmodul_MySQL.Downloader;
 
 public class TokoActivity extends AppCompatActivity {
 
-    final static String urlAddress2="http://192.168.43.111/coba2/indextoko.php";
+    final static String urlAddress2="http://vibrantoo.xyz/menumain/indextoko.php";
 
 
     @Override

@@ -12,7 +12,7 @@ import com.example.finalproject.duabelasmodul_MySQL.Downloader;
 
 public class WisataActivity extends AppCompatActivity {
 
-    final static String urlAddress2="http://192.168.43.111/coba2/indexwisata.php";
+    final static String urlAddress2="http://vibrantoo.xyz/menumain/indexwisata.php";
 
 
     @Override
