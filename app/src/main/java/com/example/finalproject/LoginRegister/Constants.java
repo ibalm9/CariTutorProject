@@ -3,7 +3,7 @@ package com.example.finalproject.LoginRegister;
 
 public class Constants {
 
-    public static final String BASE_URL = "http://192.168.43.111/";
+    public static final String BASE_URL = "http://vibrantoo.xyz/";
     public static final String REGISTER_OPERATION = "register";
     public static final String LOGIN_OPERATION = "login";
     public static final String CHANGE_PASSWORD_OPERATION = "chgPass";

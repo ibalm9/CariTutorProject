@@ -14,13 +14,13 @@ public class MainSliderAdapter extends SliderAdapter {
     public void onBindImageSlide(int position, ImageSlideViewHolder viewHolder) {
         switch (position) {
             case 0:
-                viewHolder.bindImageSlide("https://assets.materialup.com/uploads/dcc07ea4-845a-463b-b5f0-4696574da5ed/preview.jpg");
+                viewHolder.bindImageSlide("https://i.ibb.co/mhb2wJH/wp4385848-student-education-wallpapers.jpg");
                 break;
             case 1:
-                viewHolder.bindImageSlide("https://assets.materialup.com/uploads/20ded50d-cc85-4e72-9ce3-452671cf7a6d/preview.jpg");
+                viewHolder.bindImageSlide("https://i.ibb.co/6HH68WF/wp4385845-student-education-wallpapers.jpg");
                 break;
             case 2:
-                viewHolder.bindImageSlide("https://assets.materialup.com/uploads/76d63bbc-54a1-450a-a462-d90056be881b/preview.png");
+                viewHolder.bindImageSlide("https://i.ibb.co/jMnZCSh/wp4385873-student-education-wallpapers.jpg");
                 break;
         }
     }
