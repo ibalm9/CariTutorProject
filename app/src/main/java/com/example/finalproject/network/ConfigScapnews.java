@@ -3,7 +3,7 @@ package com.example.finalproject.network;
 public class ConfigScapnews {
 
     //Data URL
-    public static final String DATA_URL = "https://wajotv.com/api/get_category_posts/?slug=politik";
+    public static final String DATA_URL = "https://wajotv.com/api/get_category_posts/?slug=budaya";
     public static final String UPLOAD_URL = "http://192.168.43.111/codetr/upload.php";
     public static final String UPLOAD_KEY = "thumbnail";
 

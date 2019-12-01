@@ -5,7 +5,7 @@ package com.example.finalproject.network;
  */
 public class ConfigWajoterkini {
     //Data URL
-    public static final String DATA_URL = "https://wajoterkini.com/api/get_recent_posts/?count=10";
+    public static final String DATA_URL = "https://wajotv.com/api/get_category_posts/?slug=sosial";
     public static final String UPLOAD_URL = "http://192.168.43.111/codetr/upload.php";
     public static final String UPLOAD_KEY = "thumbnail";
 

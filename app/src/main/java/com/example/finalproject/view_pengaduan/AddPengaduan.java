@@ -57,7 +57,7 @@ public class AddPengaduan extends BaseActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(Color.LTGRAY);
         radioGroupNb = (RadioGroup) findViewById(R.id.radioGroupNb);
-        toolbar.setTitle("Pengaduanmu");
+        toolbar.setTitle("Tentang Tutor");
 
         imageView = (ImageView) findViewById(R.id.imageViewPengaduan);
 

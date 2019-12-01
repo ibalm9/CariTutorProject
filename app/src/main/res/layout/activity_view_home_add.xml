@@ -43,7 +43,7 @@
                     android:textAlignment="textStart"
                     android:layout_marginLeft="30dp"
                     android:layout_gravity="start"
-                    android:text="Foto Acaramu"></TextView>
+                    android:text="Tambah Matkulmu!"></TextView>
 
 
 

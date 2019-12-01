@@ -38,14 +38,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="true"
-                        android:text="Bencana" />
+                        android:text="TEST1" />
 
                     <RadioButton
                         android:id="@+id/radioFasilitas"
                         android:layout_width="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_height="wrap_content"
-                        android:text="Fasilitas" />
+                        android:text="TEST2" />
 
                 </RadioGroup>
 
@@ -67,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:hint="Judul Pengaduan" />
+                    android:hint="Nama Tutor" />
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/input_layout_date2"
@@ -89,7 +89,7 @@
                 <EditText
                     android:id="@+id/input_location2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:singleLine="true"
                     android:hint="Lokasi Pengaduan" />
             </android.support.design.widget.TextInputLayout>
@@ -116,7 +116,7 @@
                     android:id="@+id/input_desc2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Keterangan Pengaduanmu disini"
+                    android:hint="Keterangan Tutor"
                     android:maxLines="10"
                     android:lines="5"
                     android:autoLink="all"
