@@ -230,7 +230,7 @@ public String getStringImage(Bitmap bmp) {
 
     private boolean validateName() {
         if (inputName.getText().toString().trim().isEmpty()) {
-            inputLayoutName.setError("Mohon tambahkan nama acara");
+            inputLayoutName.setError("Mohon tambahkan nama mata kuliah");
             requestFocus(inputName);
             return false;
         } else {
@@ -242,7 +242,7 @@ public String getStringImage(Bitmap bmp) {
 
     private boolean validatePublished() {
         if (inputPublished.getText().toString().trim().isEmpty()) {
-            inputLayoutPublished.setError("Mohon tambahkan penyelenggara");
+            inputLayoutPublished.setError("Mohon tambahkan nama tutor");
             requestFocus(inputPublished);
             return false;
         } else {
@@ -254,7 +254,7 @@ public String getStringImage(Bitmap bmp) {
 
     private boolean validateTicket() {
         if (inputTicket.getText().toString().trim().isEmpty()) {
-            inputLayoutTicket.setError("Mohon tambahkan harga tiket");
+            inputLayoutTicket.setError("Mohon tambahkan harga");
             requestFocus(inputTicket);
             return false;
         } else {

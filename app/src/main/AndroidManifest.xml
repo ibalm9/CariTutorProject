@@ -31,7 +31,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.PemerintahActivity"
-            android:label="Pemerintahan"
+            android:label="Sosial dan Politik"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -110,15 +110,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view_scapnews.ViewFullScapnews"
-            android:label="SCAP"
+            android:label="Budaya"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view_wajotv.ViewFullIWajotv"
-            android:label="WajoTV"
+            android:label="Pendidikan"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view_wajoterkini.ViewFullIWajoterkini"
-            android:label="Wajo Terkini"
+            android:label="Sosial"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view_event.AddEvent"
             android:windowSoftInputMode="adjustPan"

@@ -38,14 +38,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="true"
-                        android:text="TEST1" />
+                        android:text="Laki-Laki" />
 
                     <RadioButton
                         android:id="@+id/radioFasilitas"
                         android:layout_width="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_height="wrap_content"
-                        android:text="TEST2" />
+                        android:text="Perempuan" />
 
                 </RadioGroup>
 

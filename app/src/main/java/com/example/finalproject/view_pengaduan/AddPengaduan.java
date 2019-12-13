@@ -246,7 +246,7 @@ public class AddPengaduan extends BaseActivity {
 
     private boolean validatePublished() {
         if (inputPublished.getText().toString().trim().isEmpty()) {
-            inputLayoutPublished.setError("Mohon tambahkan judul pengaduan");
+            inputLayoutPublished.setError("Mohon tambahkan nama tutor");
             requestFocus(inputPublished);
             return false;
         } else {
@@ -282,7 +282,7 @@ public class AddPengaduan extends BaseActivity {
 
     private boolean validateDesc() {
         if (inputDesc.getText().toString().trim().isEmpty()) {
-            inputLayoutDesc.setError("Mohon tambahkan deskripsi pengaduan");
+            inputLayoutDesc.setError("Mohon tambahkan deskripsi tutor");
             requestFocus(inputDesc);
             return false;
         } else {
